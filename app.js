@@ -33,7 +33,7 @@ app.use(flash())
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/posts', postsRouter); // use route posts di Express
-app.use('/login', loginRouter);
+app.use('/login', loginRouters);
 app.use('/register', registerRouter);
 
 app.use(bodyParser.urlencoded({ extended: false }))
